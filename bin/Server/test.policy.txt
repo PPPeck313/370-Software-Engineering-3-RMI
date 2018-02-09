@@ -1,0 +1,15 @@
+grant {
+    permission java.net.SocketPermission "localhost:80", "connect, resolve";
+    permission java.net.SocketPermission "localhost:1099", "connect, resolve";
+    permission java.net.SocketPermission "localhost:2099", "connect, resolve";
+    permission java.net.SocketPermission "127.0.0.1:1099", "connect, resolve";
+    permission java.net.SocketPermission "127.0.0.1:2099", "connect, resolve";
+    permission java.net.SocketPermission "192.168.1.4:1099", "connect, resolve";
+    permission java.net.SocketPermission "192.168.1.4:2099", "connect, resolve";
+    permission java.net.SocketPermission "108.41.217.49:1099", "connect, resolve";
+    permission java.net.SocketPermission "108.41.217.49:2099", "connect, resolve";
+    permission java.net.SocketPermission "10.255.186.128:1099", "connect, resolve";
+    permission java.net.SocketPermission "10.255.186.128:2099", "connect, resolve";
+    permission java.net.SocketPermission "149.4.115.16:1099", "connect, resolve";
+    permission java.net.SocketPermission "149.4.115.16:2099", "connect, resolve";
+};
